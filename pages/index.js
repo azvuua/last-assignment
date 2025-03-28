@@ -10,7 +10,6 @@ export default function Home() {
          <button className="p-3 w-24  bg-white rounded-md shadow-lg  text-purple-800  shadow-indigo-500/40 ml-10" onClick={() => router.push("/template")}>Template</button>
          <button className="p-3 w-24  bg-white rounded-md shadow-lg  text-purple-800  shadow-indigo-500/40 ml-10" onClick={() => router.push("/ourblog")}>Ourblog</button>
          <button className="p-3 w-24  bg-white shadow-lg shadow-indigo-500/40  text-purple-800 rounded-md ml-10" onClick={() => router.push("/medeelel")}>Medeelel</button>
-         <button className="p-3 w-24  bg-white shadow-lg shadow-indigo-500/40   text-purple-800 rounded-md ml-10" onClick={() => router.push("/medeelel")}>Medeelel</button>
          
     </div>
     
