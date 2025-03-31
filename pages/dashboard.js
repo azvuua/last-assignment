@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import React from 'react';
-import { IoIosArrowBack } from "react-icons/io";
+// import { IoIosArrowBack } from "react-icons/io";
 
 const Index = () => {
   const router = useRouter();
@@ -9,7 +9,7 @@ const Index = () => {
     <div className="w-auto h-auto bg-gray flex">
       <div className='h-[800px] w-64 bg-white pl-5 shadow-xl'>
         <button className="p-3 text-black rounded-md" onClick={() => router.push("/")}>
-          <IoIosArrowBack />
+          {/* <IoIosArrowBack /> */}
         </button>
         <p className='font-bold text-black pt-5 '>Dashboard</p>
         <p className='font-bold text-black pt-8 '>Menu</p>

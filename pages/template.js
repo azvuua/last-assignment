@@ -1,13 +1,13 @@
 import { useRouter } from 'next/router'
 import React from 'react'
 import Image from "next/image";
-import { IoIosArrowBack } from "react-icons/io";
+// import { IoIosArrowBack } from "react-icons/io";
 const Index = () => {
   const router = useRouter();
   return (
     <div className="h-[830px] w-[700px] ml-96 flex justify-center  bg-white">
       <button className="p-3 text-black rounded-md" onClick={() => router.push("/")}>
-      <IoIosArrowBack />
+      {/* <IoIosArrowBack /> */}
       </button>
        <div className='h-[730px] w-[600px] border mt-12 p-5 pt-5'>
         <h1 className='text-black font-bold text-[30px]'>INSERT NAME HERE</h1>

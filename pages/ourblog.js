@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import React from 'react';
-import { IoIosArrowBack } from "react-icons/io";
+// import { IoIosArrowBack } from "react-icons/io";
 import Image from 'next/image';
 
 const Index = () => {
@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-gradient-to-r bg-white">
       <button className="p-3 text-black rounded-md" onClick={() => router.push("/")}>
-      <IoIosArrowBack />
+      {/* <IoIosArrowBack /> */}
       </button>
       <div className="bg-white p-6 shadow-xl h-[600px] w-full sm:w-[600px] lg:w-[800px]">
         <h1 className="flex justify-center items-center text-3xl text-black">Our Blog</h1>

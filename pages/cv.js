@@ -1,14 +1,14 @@
 import { useRouter } from 'next/router'
 import React from 'react'
 
-import { IoIosArrowBack } from "react-icons/io";
+// import { IoIosArrowBack } from "react-icons/io";
 
 const Index = () => {
   const router = useRouter();
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 bg-white">
        <button className="p-3 text-black rounded-md" onClick={() => router.push("/")}>
-      <IoIosArrowBack />
+      {/* <IoIosArrowBack /> */}
       </button>
       <header className="text-center mb-12">
         <h1 className="text-4xl font-semibold text-gray-900">Azzaya</h1>
