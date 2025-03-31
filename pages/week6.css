@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 1000px;
+}
+
+.box:nth-child(even) {
+    background-color: slategray;
+}
+
+.box:nth-child(odd) {
+    background-color: slategray;
+}
+
+.box:hover {
+    background-color: antiquewhite;
+}
+
+.box:last-child{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+.box:last-child:hover {
+    transform: scale(1.1);
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    background-color: grey;
+    display: absolute;
+    line-height: 150px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-left: 8px dotted blue;
+}
