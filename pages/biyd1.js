@@ -255,7 +255,7 @@ export default function Home() {
                   {filteredItems.map((person, index) => (
                       <div
                           key={index}
-                          className="bg-white shadow-md rounded-xl p-3 flex items-center w-full h-[60px] space-x-4"
+                          className="bg-white shadow-md rounded-xl p-3 flex items-center w-full h-[90px] space-x-4"
                       >
                           <img
                               src={person.image}
