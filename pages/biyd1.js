@@ -50,7 +50,7 @@ const datas = [
         id: 1,
         firstName: "Kayne",
         lastname: "East",
-        job: "developer",
+        job: "singer",
         alive: false,
         height: 171,
         image: "https://preview.redd.it/kanye-east-v0-zukoz4j80nsd1.jpeg?width=640&crop=smart&auto=webp&s=982af38e7ce15ad2a0239da4f7eed6c69c3441e1",
@@ -70,7 +70,7 @@ const datas = [
         id: 1,
         firstName: "No more",
         lastname: "Parties",
-        job: "Freelancer",
+        job: "free",
         alive: true,
         height: 146,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJaRODuA-3d3pSgvXfBup_2Veey4TtMWcBlsU_ltqgN_bM_1rFoqCMLrUwZd5mA-FjwQ&usqp=CAU",
@@ -130,7 +130,7 @@ const datas = [
         id: 1,
         firstName: "XXX",
         lastname: "Father",
-        job: "Businessman",
+        job: "Dad",
         alive: true,
         height: 187,
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Xxxtentacion_%28cropped%29.jpg/640px-Xxxtentacion_%28cropped%29.jpg",
@@ -181,7 +181,7 @@ const datas = [
             },
             {
                 id: 9,
-                name: "impossib3500le",
+                name: "3500",
             }
         ]
     },
