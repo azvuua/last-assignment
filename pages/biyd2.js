@@ -10,7 +10,7 @@ const Counter = () => {
       <h1 className="mr-12">Name: </h1>
       
       <button
-        onClick={() => router.push("/frontPg")} 
+        onClick={() => router.push("/")} 
         className="absolute top-5 left-5 px-6 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition duration-300"
       >
         Back

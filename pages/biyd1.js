@@ -228,7 +228,7 @@ export default function Home() {
               
           <button
               className=" top-5 left-5 px-6 py-2 shadow-lg bg-red-500 text-white rounded-md hover:bg-red-600  transition mr-96"
-              onClick={() => router.push("/frontPg")}   >
+              onClick={() => router.push("/")}   >
               Back
           </button>
 

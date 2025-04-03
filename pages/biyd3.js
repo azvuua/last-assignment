@@ -24,7 +24,7 @@ export default function Home() {
         <div className="h-screen flex items-center justify-center relative" style={{ backgroundColor: bgColor }}>
             <button 
                 className="absolute  top-5 left-5 px-6 py-2 bg-red-500 text-white rounded"
-                onClick={() => router.push("/frontPg")} 
+                onClick={() => router.push("/")} 
             >
                 Back
             </button>
