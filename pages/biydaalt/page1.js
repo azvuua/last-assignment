@@ -99,7 +99,7 @@ export default function Home() {
 
             <footer className="h-24 flex justify-around items-center  [background-color:#bbcc96] text-sm">
                 <div className="text-center"><img src='/home.png'></img></div>
-                <div className="text-center"><img src='/calendar.png'></img></div>
+                <div onClick={() => router.push("/biydaalt/oyu")} className="text-center"><img src='/calendar.png'></img></div>
                 <div onClick={() => router.push("/biydaalt/wishlist")}  className="text-center"><img src='/like.png'></img></div>
                 <div onClick={() => router.push("/biydaalt/profile")} className="text-center"><img src='/profile.png'></img></div>
             </footer>

@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { useState } from "react";
+import { useRouter } from "next/router";
 
 export default function Home() {
+    const router = useRouter();
     return (
         <div className="min-h-screen bg-white p-6">
             <div className="flex justify-between items-center max-w-4xl mx-auto space-x-4 sm:space-x-8">

@@ -67,7 +67,7 @@ export default function ArkhangaiDayPLan() {
             </div>
 
             <div className="p-4">
-                <button className="w-full py-3 bg-[#bbcc96] text-white rounded-2xl text-lg font-medium" onClick={() => router.push("/biydaalt/oyu")}>
+                <button className="w-full py-3 bg-[#bbcc96] text-white rounded-2xl text-lg font-medium" onClick={() => router.push("/biydaalt/book")}>
                     Next
                 </button>
             </div>
