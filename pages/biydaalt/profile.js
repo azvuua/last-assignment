@@ -62,13 +62,13 @@ export default function Profile() {
         <div onClick={() => router.push("/biydaalt/page1")} className="text-center cursor-pointer">
           <img src="/greenhome.png" alt="Home" />
         </div>
-        <div className="text-center">
+        <div onClick={() => router.push("/biydaalt/oyu")}  className="text-center">
           <img src="/calendar.png" alt="Calendar" />
         </div>
-        <div className="text-center">
+        <div onClick={() => router.push("/biydaalt/wishlist")}  className="text-center">
           <img src="/like.png" alt="Favorites" />
         </div>
-        <div className="text-center">
+        <div  className="text-center">
           <img src="/whiteprofile.png" alt="Profile" />
         </div>
       </footer>

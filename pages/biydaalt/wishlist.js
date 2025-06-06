@@ -30,9 +30,9 @@ export default function Home() {
 
             <footer className="h-24 flex justify-around items-center  [background-color:#bbcc96] text-sm">
                 <div onClick={() => router.push("/biydaalt/page1")} className="text-center"><img src='/greenhome.png'></img></div>
-                <div className="text-center"><img src='/calendar.png'></img></div>
-                <div className="text-center"><img src='/whiteheart.png'></img></div>
-                <div className="text-center"><img src='/profile.png'></img></div>
+                <div onClick={() => router.push("/biydaalt/oyu")}  className="text-center"><img src='/calendar.png'></img></div>
+                <div onClick={() => router.push("/biydaalt/wishlist")}  className="text-center"><img src='/whiteheart.png'></img></div>
+                <div onClick={() => router.push("/biydaalt/profile")}  className="text-center"><img src='/profile.png'></img></div>
             </footer>
 
         </div>

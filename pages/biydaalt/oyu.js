@@ -33,6 +33,7 @@ export default function Arkhangai() {
   return (
     <div className="h-screen flex flex-col bg-gray-100">
       <div className="relative w-full h-60" onClick={() => router.push("/biydaalt/page1")}>
+        <img src="/ep_back.png" className="absolute m-5 "></img>
         <img
           src="https://farandawayadventures.com/wp-content/uploads/2020/12/mongolia-introduction.png"
           className="w-full h-full object-cover rounded-b-3xl"
